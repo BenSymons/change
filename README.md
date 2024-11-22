@@ -1,6 +1,6 @@
 # Change
 
-Your task is to write a function called `change`. The function will receive one param called price which is a number you then need to return an object where the key is the coin and the value is the number of that coin needed to pay the price but with the fewest coins possible. All of the standard British coins are fine to include and you can include as many of them as you want (you aren't limited to how many coins are at your disposal).
+Your task is to write a function called `change`. The function will receive one param called price which is a number. You need to return an object where the key is the coin and the value is the number of that coin needed to pay the price but with the fewest coins possible. All of the standard British coins are fine to include and you can include as many of them as you want (you aren't limited to how many coins are at your disposal).
 
 See this basic example:
 
@@ -15,7 +15,7 @@ change(62);
 }
 ```
 
-Your function should use the fewest coins possible to pay instead of any amount of coins that would add up to the price. For example, if change were passed in the price `20`, this response would be incorrect even though it is the right amount:
+Your function should use the fewest coins possible to pay instead of any amount of coins that would add up to the price. For example, if change were passed in the price `20`, the below response would be incorrect even though it is the right amount:
 
 ```ts
 {
