@@ -6,8 +6,8 @@ describe('Coin tests', () => {
         That coin is returned in an object`, () => {
     expect(change(10)).toEqual({"10p": 1});
     expect(change(50)).toEqual({"50p": 1});
-    expect(change(100)).toEqual({"$1": 1});
-    expect(change(200)).toEqual({"$2": 1});
+    expect(change(100)).toEqual({"£1": 1});
+    expect(change(200)).toEqual({"£2": 1});
   });
   test(`Given change is given a price
         And only 2 coins are needed

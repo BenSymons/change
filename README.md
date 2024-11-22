@@ -2,6 +2,8 @@
 
 Your task is to write a function called `change`. The function will receive one param called price which is a number. You need to return an object where the key is the coin and the value is the number of that coin needed to pay the price but with the fewest coins possible. All of the standard British coins are fine to include and you can include as many of them as you want (you aren't limited to how many coins are at your disposal).
 
+The possible string values for the coins are: `'1p', '2p', '5p', '10p', '20p', '50p', '£1', '£2'`
+
 See this basic example:
 
 ```ts
